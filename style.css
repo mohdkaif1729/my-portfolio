@@ -16,7 +16,7 @@ body a{
 /* add element for background image */
 header::before{
     content: '';
-    background-image: url("./images/background-image.jpg");
+    background-image: url("./images/background-image.webp");
     background-repeat: no-repeat;
     background-position: center 30%;
     background-size: cover;

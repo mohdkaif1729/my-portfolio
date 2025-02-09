@@ -29,7 +29,7 @@
             </div>
             <div class="btn-group">
                 <a href="https://drive.google.com/file/d/19WW8C77GNg4ffsznbLmbc_oBd7dygTws/view" class="download" target="_blank">Download CV</a>
-                <a href="" class="get-in-touch">Get in touch</a>
+                <a href="#contact-us-bookmark" class="get-in-touch">Get in touch</a>
             </div>
         </div>
 
@@ -101,29 +101,29 @@
         </div>
     </main>
 
-
-    <footer>
+    <!-- footer -->
+    <footer id="contact-us-bookmark">
         <h2 class="contact-us-heading">Contact Us</h2>
         <div class="contact-us">
             <div class="left">
                 <img src="./images/contact-us.svg" alt="">
             </div>
             <div class="right">
-                <form action="">
+                <form name="contact" netlify>
                     <div>
-                        <label for="">Name:</label>
-                        <input type="text" placeholder="Mohd Kaif">
+                        <label for="fullName">Name:</label>
+                        <input name="fullName" id="fullName" type="text" placeholder="Mohd Kaif">
                     </div>
                     <div>
-                        <label for="">Email:</label>
-                        <input type="text" placeholder="mkmohdkaif263@gmail.com">
+                        <label for="email">Email:</label>
+                        <input name="email" type="text" id="email" placeholder="mkmohdkaif263@gmail.com">
                     </div>
                     <div>
-                        <label for="">Message:</label>
-                        <textarea name="" rows="5" id="" placeholder="Hi there!"></textarea>
+                        <label for="message">Message:</label>
+                        <textarea name="message" rows="5" id="message" placeholder="Hi there!"></textarea>
                     </div>
                     <div>
-                        <button>Send</button>
+                        <button type="submit">Send</button>
                     </div>
                 </form>
             </div>

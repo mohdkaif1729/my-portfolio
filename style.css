@@ -1,0 +1,264 @@
+/* Roboto Mono font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+/* reset intial margin and padding */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", serif;
+}
+
+body a{
+    text-decoration: none;
+}
+
+/* add element for background image */
+header::before{
+    content: '';
+    background-image: url("./images/background-image.jpg");
+    background-repeat: no-repeat;
+    background-position: center 30%;
+    background-size: cover;
+    position: absolute;
+    opacity: 0.12;
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+    position: relative;   
+}
+
+/* all about my profile */
+.about-profile{
+    width: 80%;
+    position: relative;
+    top: 100px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-profile img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+
+.profile-details{
+    margin-top: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* my name */
+.name{
+    font-size: 35px;
+    font-weight: 800;
+}
+
+/* my designation */
+.designation{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+/* my social media links */
+.social-media{
+    margin-top: 20px;
+}
+
+.social-media a{
+    margin-left: 10px;
+}
+
+.social-media a i{
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.about-profile .btn-group{
+    margin-top: 30px;
+}
+
+/* resume download link */
+.download{
+    background-color: #304fff;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* contact me bookmark */
+.get-in-touch{
+    background-color: #686868;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* main section and about-me section starts from here */
+.about-me{
+    width: 70%;
+    margin: 80px auto;
+    text-align: center;
+}
+
+.about-me-detail, .projects-detail{
+    padding: 20px 30px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 1px #0000007c;
+    margin-top: 30px;
+    color: #686868;
+    line-height: 25px;
+    font-size: 17px;
+}
+
+.about-me-detail strong{
+    color: #000000;
+    font-size: 18px;
+}
+
+.about-me-heading, .projects-heading{
+    background-color: #3d3d3d;
+    display: inline-block;
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+/* projects section */
+.projects{
+    width: 95%;
+    margin: 80px auto;
+    text-align: center;
+}
+
+.projects-detail{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.projects-detail .left, .right{
+    width: 50%;
+    padding: 20px;
+}
+
+.projects-detail .left img{
+    width: 100%;
+    transition: 200ms;
+}
+
+.projects-detail .left img:hover{
+    width: 100%;
+    transform: scale(1.123);
+}
+
+.projects-detail .right{
+    text-align: left;
+}
+
+.projects-detail .right h2{
+    color: #fc815c;
+}
+
+.projects-detail .right p{
+    margin-top: 10px;
+    color: #000000;
+}
+
+.technologies-used{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.technologies-used span{
+    padding: 4px 8px;
+    border-radius: 18px;
+    border: 1px solid #454545;
+    font-size: 13px;
+}
+
+/* footer contact us page */
+footer{
+    width: 95%;
+    margin: 0px auto;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.contact-us{
+    width: 100%;
+    padding: 20px 30px;
+    box-shadow: 1px 1px 10px 1px #0000007c;
+    margin: 20px 0px;
+    background: linear-gradient(#e66465, #9198e5);
+    display: flex;
+    border-radius: 5px;
+    
+}
+
+.contact-us .left{
+    width: 50%;
+}
+
+.contact-us .right{
+    width: 50%;
+    background-color: #ffffff;
+    display: block;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 1px #0000007c;
+}
+
+.contact-us .right form div{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.contact-us .right form label{
+    font-size: 18px;
+    font-weight: 900;
+    color: #686868;
+}
+
+.contact-us .right input, textarea{
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #e7e7e7;
+    font-size: 15px;
+    display: block;
+    width: 100%;
+    outline: none;
+}
+
+.contact-us .right button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    background-color: #304fff;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.contact-us-heading{
+    background-color: #3d3d3d;
+    display: inline-block;
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: #ffffff;
+    margin: 0px auto;
+}

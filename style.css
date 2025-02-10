@@ -1,12 +1,12 @@
-/* Roboto Mono font */
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+/* Roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* reset intial margin and padding */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Roboto Mono", serif;
+    font-family: "Roboto", serif;
 }
 
 body{
